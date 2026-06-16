@@ -1,0 +1,52 @@
+{
+  "version": "2.5",
+  "window_size": 5,
+  "features_per_timestep": 23,
+  "feature_names": [
+    "agedays",
+    "time_delta",
+    "baz",
+    "weight_kg",
+    "height_cm",
+    "wami_index",
+    "maternal_education",
+    "illness_days",
+    "diarrhea_days",
+    "fever_days",
+    "antibiotic_days",
+    "illness_rate",
+    "diarrhea_rate",
+    "fever_rate",
+    "antibiotic_rate",
+    "illness_last_3",
+    "diarrhea_last_3",
+    "antibiotics_last_3",
+    "weight_delta_last_2",
+    "height_delta_last_2",
+    "is_currently_ill",
+    "is_recovering",
+    "age_group"
+  ],
+  "enhanced_features": [
+    "illness_last_3",
+    "diarrhea_last_3",
+    "antibiotics_last_3",
+    "weight_delta_last_2",
+    "height_delta_last_2",
+    "is_currently_ill",
+    "is_recovering",
+    "age_group"
+  ],
+  "targets": {
+    "delta_baz": "BAZ(t) - BAZ(t-1)",
+    "illness_burden": "Sum of illness days in next inter-visit window",
+    "diarrhea_burden": "Sum of diarrhea days in next inter-visit window",
+    "time_to_recovery": "Days until illness==0 AND diarrhea==0 (capped at 60)"
+  },
+  "datasets": {
+    "delta_baz": "18528 sequences",
+    "illness": "17230 sequences",
+    "diarrhea": "17230 sequences",
+    "recovery": "17230 sequences"
+  }
+}

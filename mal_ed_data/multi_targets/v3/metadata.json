@@ -1,0 +1,38 @@
+{
+  "embedding_dim": 64,
+  "source_models": [
+    "lstm",
+    "tcn"
+  ],
+  "targets": [
+    "delta_baz",
+    "illness",
+    "recovery"
+  ],
+  "datasets": {
+    "delta_baz_lstm": {
+      "rows": 18528,
+      "embedding_dim": 64
+    },
+    "delta_baz_tcn": {
+      "rows": 18528,
+      "embedding_dim": 64
+    },
+    "illness_lstm": {
+      "rows": 17230,
+      "embedding_dim": 64
+    },
+    "illness_tcn": {
+      "rows": 17230,
+      "embedding_dim": 64
+    },
+    "recovery_lstm": {
+      "rows": 17230,
+      "embedding_dim": 64
+    },
+    "recovery_tcn": {
+      "rows": 17230,
+      "embedding_dim": 64
+    }
+  }
+}

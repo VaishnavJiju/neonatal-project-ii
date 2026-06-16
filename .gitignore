@@ -1,10 +1,15 @@
-# ===== DATA FILES (too large for GitHub) =====
+# ===== DATA FILES =====
+# Raw MAL-ED files (too large for GitHub)
 mal_ed_data/*.txt
-mal_ed_data/*.parquet
 mal_ed_data/*.xlsx
-mal_ed_data/*.csv
-mal_ed_data/multi_targets/
+mal_ed_data/mal_ed_master.parquet
+mal_ed_data/mal_ed_final.parquet
+mal_ed_data/mal_ed_monthly_trajectories.parquet
+mal_ed_data/mal_ed_summary_targets.parquet
 mal_ed_data/processed_variants/
+
+# Keep: enriched_codebook.csv (50KB) — powers the Clinical Codebook
+# Keep: multi_targets/ (~85MB) — processed sub-datasets for all pipeline stages
 
 # ===== TRAINED MODELS (binary, large) =====
 models/

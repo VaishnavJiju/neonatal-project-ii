@@ -1,0 +1,20 @@
+{
+  "targets": [
+    "delta_baz",
+    "illness",
+    "recovery"
+  ],
+  "model_types": [
+    "lstm",
+    "tcn"
+  ],
+  "datasets": {
+    "delta_baz_hybrid_lstm": "18528 rows",
+    "delta_baz_hybrid_tcn": "18528 rows",
+    "illness_hybrid_lstm": "17230 rows",
+    "illness_hybrid_tcn": "17230 rows",
+    "recovery_hybrid_lstm": "17230 rows",
+    "recovery_hybrid_tcn": "17230 rows"
+  },
+  "join_strategy": "pid + nearest agedays"
+}
