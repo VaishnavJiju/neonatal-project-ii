@@ -1,0 +1,42 @@
+# ===== DATA FILES (too large for GitHub) =====
+mal_ed_data/*.txt
+mal_ed_data/*.parquet
+mal_ed_data/*.xlsx
+mal_ed_data/*.csv
+mal_ed_data/multi_targets/
+mal_ed_data/processed_variants/
+
+# ===== TRAINED MODELS (binary, large) =====
+models/
+
+# ===== NODE MODULES =====
+ui/node_modules/
+node_modules/
+
+# ===== PYTHON CACHE =====
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ===== BUILD OUTPUTS =====
+ui/dist/
+ui/.vite/
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
+
+# ===== CATBOOST =====
+catboost_info/
+
+# ===== MISC =====
+scratch/
+images/
+images_light/
+streamlit_demo/
+*.log

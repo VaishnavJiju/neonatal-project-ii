@@ -1,0 +1,186 @@
+{
+  "ALRI episode number": {
+    "target": "ALRI episode number",
+    "task_type": "regression",
+    "results": [
+      {
+        "feature": "Mean pathogen (excluding NRV) count in stools",
+        "score": 0.03996038865160223
+      },
+      {
+        "feature": "Mean pathogen count in stools",
+        "score": 0.035966310233047416
+      },
+      {
+        "feature": "Mean pathogen (excluding NRV) count in 1st monthly stools",
+        "score": 0.028919529280290845
+      },
+      {
+        "feature": "Height (cm)",
+        "score": 0.02287795484097721
+      },
+      {
+        "feature": "Household wealth index, numerical",
+        "score": 0.02184252582067714
+      },
+      {
+        "feature": "Age 1st solid food given (days)",
+        "score": 0.02155221039243571
+      },
+      {
+        "feature": "Breastfeedings yesterday, nighttime",
+        "score": 0.020859306554081414
+      },
+      {
+        "feature": "Family income in local currency",
+        "score": 0.02048870707330508
+      },
+      {
+        "feature": "Age 1st animal milk or formula given (days)",
+        "score": 0.020400754324858994
+      },
+      {
+        "feature": "Family income in USD",
+        "score": 0.019267954919834906
+      }
+    ]
+  },
+  "ALRI episode status": {
+    "target": "ALRI episode status",
+    "task_type": "classification",
+    "results": [
+      {
+        "feature": "Family income in USD",
+        "score": 0.05857005265230031
+      },
+      {
+        "feature": "Height (cm)",
+        "score": 0.05608432215789749
+      },
+      {
+        "feature": "ALRI episode number",
+        "score": 0.04939822393935356
+      },
+      {
+        "feature": "Mean pathogen count in stools",
+        "score": 0.03838416149803203
+      },
+      {
+        "feature": "Mean pathogen (excluding NRV) count in stools",
+        "score": 0.03681647231153806
+      },
+      {
+        "feature": "Mean pathogen (excluding NRV) count in 1st monthly stools",
+        "score": 0.03420476240145964
+      },
+      {
+        "feature": "Mean pathogen count in 1st monthly stools",
+        "score": 0.03260247980214337
+      },
+      {
+        "feature": "Target month for socioeconomic status survey",
+        "score": 0.03231122793033947
+      },
+      {
+        "feature": "Family income in local currency",
+        "score": 0.025482860990304612
+      },
+      {
+        "feature": "Mean people per room",
+        "score": 0.02099368841534921
+      }
+    ]
+  },
+  "Active breastfeeding": {
+    "target": "Active breastfeeding",
+    "task_type": "classification",
+    "results": [
+      {
+        "feature": "Family income in USD",
+        "score": 0.011392507334129776
+      },
+      {
+        "feature": "Target month for socioeconomic status survey",
+        "score": 0.009861894793977588
+      },
+      {
+        "feature": "Target month for food security survey",
+        "score": 0.008472812951983322
+      },
+      {
+        "feature": "Overall socioeconomic score",
+        "score": 0.008113585607079199
+      },
+      {
+        "feature": "Family income in local currency",
+        "score": 0.008073037814707917
+      },
+      {
+        "feature": "WAMI index",
+        "score": 0.007579496474270808
+      },
+      {
+        "feature": "Mean people per room",
+        "score": 0.006871423298369206
+      },
+      {
+        "feature": "Breastfeedings yesterday, daytime",
+        "score": 0.006566661522629524
+      },
+      {
+        "feature": "Breastfeedings during recall",
+        "score": 0.006464086266839475
+      },
+      {
+        "feature": "Sanitation and drinking water score",
+        "score": 0.006323816681048422
+      }
+    ]
+  },
+  "Activity level, caregiver report": {
+    "target": "Activity level, caregiver report",
+    "task_type": "classification",
+    "results": [
+      {
+        "feature": "Family income in USD",
+        "score": 0.06544872613922226
+      },
+      {
+        "feature": "Mean pathogen (excluding NRV) count in stools",
+        "score": 0.048765155350586564
+      },
+      {
+        "feature": "Height (cm)",
+        "score": 0.048105713784342585
+      },
+      {
+        "feature": "Mean pathogen count in stools",
+        "score": 0.04358044678115647
+      },
+      {
+        "feature": "Mean pathogen (excluding NRV) count in 1st monthly stools",
+        "score": 0.04125873431260496
+      },
+      {
+        "feature": "Mean pathogen count in 1st monthly stools",
+        "score": 0.04010027800481053
+      },
+      {
+        "feature": "Family income in local currency",
+        "score": 0.03565688052914995
+      },
+      {
+        "feature": "Mean people per room",
+        "score": 0.029626897405552688
+      },
+      {
+        "feature": "WAMI index",
+        "score": 0.029164244810027995
+      },
+      {
+        "feature": "Overall socioeconomic score",
+        "score": 0.02772154540094629
+      }
+    ]
+  }
+}
